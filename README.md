@@ -1,3 +1,0 @@
-## Variaveis - UC2
-
-
