@@ -1,3 +1,5 @@
+// Comparadores 🤖🪛
+
 /*  
 Comparadores são operadores que permitem comparar o valor das variaveis entre si.
 

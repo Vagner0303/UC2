@@ -1,3 +1,5 @@
+// Desafio 🏃🏾🫵🏿
+
 let NF = 6 //Nota Final
 let NR = 8 // Nota de Recuperação
 let T1 = 7 // Nota Trabalho 1

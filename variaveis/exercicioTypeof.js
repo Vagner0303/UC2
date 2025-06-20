@@ -1,3 +1,5 @@
+// Typeof 🤖🪛
+
 nome = "robo"
 console.log(typeof nome)
 

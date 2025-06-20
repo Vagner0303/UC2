@@ -1,4 +1,4 @@
-console.log('Atividade 1')
+// Atividade 1 🏃🏾🫵🏿
 
 const nomeDaPessoa = "Vagner"
 const sobrenomeDaPessoa = "Melo Pires"
