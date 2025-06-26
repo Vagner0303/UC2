@@ -1,0 +1,40 @@
+/* Estilização geral do corpo da pagina*/
+body{
+
+    background-color: rgba(73, 73, 148, 0.596);   /* cor de fundo da pagina*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Tipo de Fonte */
+    color:rgba(0, 0, 0, 0.74); ;/* Mudo a cor do texto */
+    padding: 300px;
+
+}
+/* Estilo de titulo (h1)*/
+h1{
+text-align: center; /* Centraliza o texto */
+color: rgb(20, 20, 22); /* Vai mudar so a cor do h1, outros textos que pode ter não muda*/
+
+
+}
+/* clase para botoes personalizados */
+.botao{
+display: block; /* Faz com que os botões se comportem como um bloco (ocupa uma largura disponivel) */ 
+width: 100%; /* nosso botão ocupa uma largura em 100% */
+max-width: 400px; /* Largura maxima de 400px */
+margin: 10px auto; /* margem de 10px verticalmente e centralizado horizontalmente */
+padding: 9px; /* espaçamento interno */
+
+font-size: 16px;  /* tamanho da minha fonte */
+
+background-color: rgba(33, 68, 33, 0.788); /*cor de fundo do botão*/
+color:rgb(0, 0, 0); /* cor do texto do botão */
+border: 4px double rgb(255, 0, 0); /* 2px é a grossura da minha borda, double o formato, e depois a cor */ 
+border-radius: 80px; /* Botões arredondados */
+cursor: pointer; /* mostra o ponteiro do cursor como "mão" ao passar o mouse no botão */
+
+}
+/* Efeito de hover (muda a cor ao passar o mouse) */
+.botao:hover{
+background-color: rgb(80, 122, 158); /* Muda a cor de fundo quando o mouse passa por cima ( muda a cor para azul, neste caso ) */
+
+}
+
+
