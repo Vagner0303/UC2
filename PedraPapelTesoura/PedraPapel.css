@@ -1,0 +1,68 @@
+/* Aplicando uma configuração básica a todos os elementos */
+*{
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total do elemento */
+}
+/* Estilizando o corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif; /* define a fonte padrão */
+    background: linear-gradient(135deg, #960101, #000000); /* fundo com gradiente azul na diagnoal (135deg) */
+    color: #000000; /* cor clara para o texto */
+    display: flex; /* Usa flexbox para o posicionamento */
+    flex-direction: column; /* organiza os filhos (elementos) em coluna*/
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: flex-start; /* Alinha os filhos (elementos) no topo da página */
+    min-height: 100vh; /* Grante que o body ocupe pelo menos toda a altura da tela */
+    margin:0; /* Remove margens padrão do navegador */
+    padding: 2rem; /* Espaço interno nas bordas do body */
+    background-image:url('https://wallpapers.com/images/featured/shrek-4ibeouacwvi03rsx.jpg');
+
+}
+/* Estilo do título principal */
+h1{
+    margin-bottom: 1rem; /* rem= "root em" valor relativo ao tamanho de compenentes emem html */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6 ); /* valores são as direções da sombra e cor */
+
+}
+/* Container dos botões da escolha */
+.choices{
+    display: flex; /* Organiza os botões lado a lado */
+    gap: 1rem; /* Espaço entre os botões */
+    margin-bottom: 2rem; /* Espaço abaixo do container*/
+}
+/* Estilo dos botões */
+button{
+    background: #ffffff22; /* fundo branco semi-transparente */
+    border: 2px solid #000000; /* Borda branca sólida 2px é a espessura, solid é formato, e a cor */
+    border-radius: 12px; /* cantos arredondados */
+    padding: 1rem 2rem; /* espaçamento interno do botão */
+    font-size: 1.2rem; /* tamanho da fonte */
+    font-weight: 600; /* peso da fonte (negrito leve) */
+    color: #000000; /* cor do texto branco */ 
+    cursor: pointer; /* mostrar a mãozinha ao passar o mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* suavisa as mudanças visuais */
+    min-width: 100px; /* largura mínima */
+    box-shadow: 0 0 8px #cc4100fd; 
+}
+/* Efeito visual ao passar o mouse */
+button:hover{
+    transform: rotate(720deg);
+}
+/* estilo dos parágrafos de escolha */
+p{
+    font-size: 1.2rem;
+    margin: 0.5rem 0; /* margem acima e abaixo */
+    min-height: 1.5rem;/* garante altura minima para evitar "pulos" quando o texto muda */
+    text-align: center;/*centraliza o texto*/
+    text-shadow: 0 0 6px #000dffcc; /* sombra azul para destacar o texto */
+}
+/* Estilo para o texto que mostra o vencedor */
+#winner{
+font-weight: 700;/* negrito fonte */
+font-size: 1.5rem;/* fonte maior de destaque */
+margin-top:1.5rem; /* espaço acima do texto */ 
+color: rgb(247, 247, 247); /*branco com transparência*/
+text-shadow:
+0 0 10px rgb(0, 255, 213), /* camada 1: brilho ciano suave*/
+0 0 20px #0ff, /* camada 2: brilho mais intenso*/
+0 0 30px #0ff;/* camada 3: brilho ainda mais forte*/
+}
